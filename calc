@@ -1,0 +1,47 @@
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+
+int main() {
+
+bool ctrl = on;
+int menuInput;
+float inputA;
+float inputB;
+
+void menu() {
+  cout << "press number for what calculation you want \n\n 1.square \n 2.rectangle \n 3.exit";
+  cin >> menuInput;
+}
+
+
+while (ctrl == on) {
+menu();
+
+switch (menuInput) {
+  case 1:
+
+  cout << "please enter the side of the square: ";
+  cin >> inputA;
+  cout << "the area of the square is: " << pow(inputA, 2);
+
+
+  case 2:
+
+  cout << "enter the length and width of the rectangle: "
+  cout << "length"
+  cin >> inputA;
+  cout << "width"
+  cin >> inputB;
+
+
+
+}
+
+
+
+
+
+
+}
